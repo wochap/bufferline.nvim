@@ -172,6 +172,7 @@ function Buffer:new(buf)
     path = buf.path,
     extension = buf.extension,
     type = buf.buftype,
+    id = buf.id,
   })
   local name = "[No Name]"
   if buf.path and #buf.path > 0 then
